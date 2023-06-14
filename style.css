@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&family=Varela+Round&display=swap');
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 1.6;
+  background-color: #4f4f4e;
+  padding: 20px;
+}
+
+#main {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#title {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+#img-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#image {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+#img-caption {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+#tribute-info {
+  margin-bottom: 40px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #666666;
+  margin-bottom: 20px;
+}
+
+#time-line {
+  margin-top: 20px;
+}
+
+.details {
+  margin-bottom: 15px;
+}
+
+.acc-btn {
+  cursor: pointer;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.acc-btn:hover {
+  background-color: #e0e0e0;
+}
+
+.acc-content {
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+}
+
+.acc-content li {
+  margin-bottom: 5px;
+}
+
+#wiki-section {
+  margin-top: 40px;
+  text-align: center;
+}
+
+#wiki-link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#wiki-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  #title {
+    font-size: 30px;
+  }
+
+  #img-caption {
+    font-size: 14px;
+  }
+}
